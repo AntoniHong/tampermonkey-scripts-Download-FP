@@ -19,7 +19,7 @@
     // Isi dengan teks user yang muncul di UI jika ingin batasi operasi.
     // Untuk testing cepat, biarkan kosong => script aktif untuk semua user.
     const DOWNLOAD_DELAY_MS = 1500; // jeda antar-download (ms)
-    const MAX_DOWNLOADS_PER_RUN = 200; // safety cap
+    const MAX_DOWNLOADS_PER_RUN = 500; // safety cap
     const INITIAL_INJECT_DELAY_MS = 5000; // tunggu awal untuk SPA load
     const ENABLE_LOG = true; // set false untuk matikan debug console
     const POLL_INTERVAL_MS = 1200; // polling fallback interval
